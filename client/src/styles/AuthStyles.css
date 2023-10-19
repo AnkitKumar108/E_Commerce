@@ -1,0 +1,122 @@
+
+
+
+/* ======= register page  */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #93a5cf 0%, #c0d3c9 100%);
+}
+  
+.form-container form {
+    box-shadow: rgba(9, 9, 9, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+  
+.form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+  
+.form-container form input {
+    /* /* border: none; */
+    /* border-bottom: 1px solid #000;
+    border-top: 1px solid;  */
+    border: 1px solid #000;
+  border-radius: 0%;
+    
+}
+  
+.form-container form button {
+    border: 1px solid rgb(88, 89, 97);
+    border-radius: 20px;
+    background-color: #37354f;
+    color: rgb(235, 228, 228);
+    width: 250px;
+}
+
+.formerror{
+    color: rgb(231, 88, 88);
+    font-size: 12px;
+    font-style: italic;
+}
+  
+
+
+/* for the profile */
+.error-message {
+    color: rgb(200, 0, 0);
+    font-size: 12px;
+    margin-top: 1px;
+    
+    font-style: italic;
+  }
+
+/* //for login page */
+.text-danger {
+    color: rgb(131, 47, 47);
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 1px;
+  }
+
+  /* .form-container form button:hover {
+    border: 1px solid black;
+    background: #000000; 
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000)
+} */
+
+
+/* .background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+);  */
+
+/* External CSS File */
+
+/* External CSS File */
+
+/* External CSS File */
+
+/* Center the Register button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* You can adjust the height as needed */
+  }
+  
+  /* Style the Register button */
+  .btn-primary {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; /* Add border-radius for rounded corners if desired */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition for the background color change */
+  
+   
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Change the hover background color */
+  }
+  .link-primary {
+    text-align: center;
+    color: blue; /* You can replace 'blue' with your desired color value */
+  }
+    
+  
+  
